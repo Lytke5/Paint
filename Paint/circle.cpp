@@ -32,6 +32,10 @@ Circle& Circle::operator=(const Circle &obj)
     return *this;
 }
 
+Circle::~Circle()
+{
+
+}
 
 bool Circle::update(QPoint point)
 {
